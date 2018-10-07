@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as $ from 'jquery';
+
 @Component({
   selector: 'app-test',
   templateUrl: './test.component.html',
@@ -10,6 +12,8 @@ export class TestComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  	$('h6').click(function() {
+  		$(this).fadeOut()
+  	})
   }
-
 }
