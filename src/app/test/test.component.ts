@@ -7,12 +7,13 @@ import * as $ from 'jquery';
   templateUrl: './test.component.html',
   styleUrls: ['./test.component.css']
 })
+
 export class TestComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
-  	$('h6').click(function() {
+  	$('h1').click(function() {
   		$(this).fadeOut()
   	})
   }

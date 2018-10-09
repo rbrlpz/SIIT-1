@@ -1,25 +1,32 @@
 # SIIT desarrollo web prof
 
 ## Archivos del proyecto
-Todo los archivos que se han puesto de sus modulos se han añadido a este proyecto de angular en la carpeta de `DesarrolloAlumnos`
+Todos los archivos que se han subido de sus modulos se han añadido a este proyecto en el directorio de [DesarrolloAlumnos](DesarrolloAlumnos)
 
-## descarga
+## Guias
+- [Guia de `git`](guias/git.md)
+- [Guia de componentes](guias/componentes.md)
+
+## Clona el proyecto
 ```
 git clone https://github.com/desarrollowebp/SIIT.git
 ```
 
-## instalacion 
+## Instalacion del proyecto
 ```
-npm install 
+npm install
 ```
 
-## ejecucion 
+## Ejecucion del proyecto
 ```
 npm start
 ```
 
-## genera componente
-```
-ng generate component <nombre>
-```
+## URL del proyecto
+http://localhost:4200/
 
+
+## Genera un componente
+```
+ng generate component nombre-de-componente
+```
